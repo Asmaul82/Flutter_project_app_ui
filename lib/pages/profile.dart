@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconly/iconly.dart';
-import 'package:project2uidesign/pages/about.dart';
+import 'package:project2uidesign/pages/about%20us.dart';
 import 'package:project2uidesign/pages/order_page.dart';
 
 import 'welcome_page.dart';
@@ -54,7 +54,7 @@ class ProfilePage extends StatelessWidget {
             title: Text("About us"),
             leading: Icon(IconlyLight.info_square),
             onTap: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context)=>AboutPage()));
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>AboutUs()));
             },
           ),
 

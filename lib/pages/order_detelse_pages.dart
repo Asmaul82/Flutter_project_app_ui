@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:iconly/iconly.dart';
 import 'package:project2uidesign/model/order.dart';
 import 'package:easy_stepper/easy_stepper.dart';

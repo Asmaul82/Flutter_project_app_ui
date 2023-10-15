@@ -179,7 +179,9 @@ class _Product_detealseState extends State<Product_detealse> {
                 itemCount:product.length),
           ),
           SizedBox(height: 20,),
-          FilledButton.icon(onPressed:(){}, label:Text("Add to Cadr"),icon: Icon(IconlyLight.bag_2),)
+          FilledButton.icon(onPressed:(){
+
+          }, label:Text("Add to Cadr"),icon: Icon(IconlyLight.bag_2),)
         ],
       ),
     );

@@ -29,7 +29,7 @@ class CartPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text("Total (${cartItem.length})"),
-              Text("\$$totalprice",style: Theme.of(context).textTheme.titleMedium?.copyWith(
+              Text("\$${totalprice.toStringAsFixed(2)}",style: Theme.of(context).textTheme.titleMedium?.copyWith(
                 fontWeight: FontWeight.bold,
                 color: Theme.of(context).colorScheme.primary,
               ),)

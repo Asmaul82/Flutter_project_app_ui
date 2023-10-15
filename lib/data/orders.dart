@@ -6,15 +6,15 @@ import '../model/order.dart';
 List<Order> orders=[
   Order(
       id: "1023ajes",
-      products:product.reversed.take(1).toList(),
-      orderingDate: DateTime.utc(2023,8,15),
+      products:product.reversed.take(2).toList(),
+      orderingDate: DateTime.utc(2022,8,15),
       deliveryDate: DateTime.utc(2023,11,16),
       status:OrderStatus.delivered,
   ),
   Order(
       id: "10113ajes",
       products:product.reversed.take(1).toList(),
-      orderingDate: DateTime.utc(2023,8,15),
+      orderingDate: DateTime.utc(2022,8,15),
       deliveryDate: DateTime.utc(2023,11,16),
       status:OrderStatus.delivered,
   ),
@@ -22,7 +22,7 @@ List<Order> orders=[
   Order(
       id: "5023ajes",
       products:product.reversed.take(2).toList(),
-      orderingDate: DateTime.utc(2023,10,15),
+      orderingDate: DateTime.utc(2022,10,15),
       deliveryDate: DateTime.utc(2023,10,17),
       status:OrderStatus.delivered,
   ),
@@ -37,16 +37,16 @@ List<Order> orders=[
 
   Order(
       id: "26023ejes",
-      products:product.reversed.take(1).toList(),
-      orderingDate: DateTime.utc(2023,10,14),
+      products:product.reversed.take(2).toList(),
+      orderingDate: DateTime.utc(2022,10,14),
       deliveryDate: DateTime.utc(2023,10,19),
       status:OrderStatus.delivered,
   ),
 
   Order(
       id: "72023ejes",
-      products:product.reversed.take(1).toList(),
-      orderingDate: DateTime.utc(2023,10,11),
+      products:product.reversed.take(2).toList(),
+      orderingDate: DateTime.utc(2021,10,11),
       deliveryDate: DateTime.utc(2023,10,20),
       status:OrderStatus.delivered,
   ),
@@ -108,7 +108,7 @@ List<Order> orders=[
 
   Order(
       id: "113aaje",
-      products:product.reversed.skip(1).toList(),
+      products:product.reversed.skip(2).toList(),
       orderingDate: DateTime.utc(2023,6,14),
       deliveryDate: DateTime.utc(2023,9,15),
       status:OrderStatus.delivered,

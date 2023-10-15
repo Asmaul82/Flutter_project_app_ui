@@ -31,7 +31,8 @@ class OrdersPage extends StatelessWidget {
               itemBuilder: (context, index){
               final order = fileredOrders[index];
               return OrderItem(order: order);
-            }, separatorBuilder: (context,index)=> SizedBox(height: 10,), itemCount:fileredOrders.length,);
+            },
+              separatorBuilder: (context,index)=> SizedBox(height: 10,), itemCount:fileredOrders.length,);
           }),
         ),
       ),
